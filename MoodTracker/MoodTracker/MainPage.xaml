@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MoodTracker.MainPage"
+             Title="Login"
+             BackgroundColor="{DynamicResource Primary}">
+
+    <FlexLayout>
+        <FlexLayout.Resources>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="50"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontFamily" Value="Georgia"/>
+            </Style>
+            <Style TargetType="Entry">
+                <Setter Property="HorizontalTextAlignment" Value="Start"/>
+            </Style>
+        </FlexLayout.Resources>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <VerticalStackLayout VerticalOptions="Center" Grid.Row="0" Margin="50,0,0,0">
+                <Label Text="Mood Tracker" FontSize="50" HorizontalTextAlignment="Center" TextColor="{DynamicResource SecondaryDarkText}"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Grid.Row="1" Margin="52,-10,0,0">
+                <Label Text="Login" FontSize="50" HorizontalTextAlignment="Center" TextColor="{DynamicResource PrimaryDarkText}"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Start" Grid.Row="1" Margin="52,70,0,0">
+                <Label Text="Username" FontSize="15" HorizontalTextAlignment="Start" TextColor="{DynamicResource PrimaryDarkText}"/>
+                <Grid>
+                    <Frame WidthRequest="300" HorizontalOptions="Start" Opacity="0.8">
+                        <Entry FontSize="15"  Text="{Binding UserName}" BackgroundColor="Transparent" TextColor="White" PlaceholderColor="LightGray" HeightRequest="40"  Margin="0,-20,0,-20" Placeholder="▸ Enter username"/>
+                    </Frame>
+                </Grid>
+                <Label Text="Password" FontSize="15" HorizontalTextAlignment="Start" TextColor="{DynamicResource PrimaryDarkText}"/>
+                <Grid>
+                    <Frame WidthRequest="300" HorizontalOptions="Start" Opacity="0.8">
+                        <Entry FontSize="15"  Text="{Binding Password}" BackgroundColor="Transparent" TextColor="White" PlaceholderColor="LightGray" HeightRequest="40"  Margin="0,-20,0,-20" Placeholder="▸ Enter password"/>
+                    </Frame>
+                </Grid>
+                <Button x:Name="login" BackgroundColor="{DynamicResource PrimaryDarkText}" FontFamily="Georgia" Text="Login" WidthRequest="100" HeightRequest="40" VerticalOptions="Start" HorizontalOptions="Start" FontSize="15" Margin="0,15,0,0"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Grid.Row="2" VerticalOptions="Center">
+                <Label Text="I don't have an account" HorizontalOptions="Center" FontSize="15" HorizontalTextAlignment="Start" TextColor="{DynamicResource PrimaryDarkText}"/>
+                <Button x:Name="register" BackgroundColor="{DynamicResource PrimaryDarkText}" FontFamily="Georgia" Text="Sign up" WidthRequest="100" HeightRequest="40" VerticalOptions="Start" HorizontalOptions="Center" FontSize="15"/>
+            </VerticalStackLayout>
+
+        </Grid>
+    </FlexLayout>
+
+</ContentPage>

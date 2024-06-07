@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Prog\\Github\\MoodTracker-Maui\\MoodTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A50610E8-D480-42B9-B7AC-0F8EA625F7AA}|MoodTracker\\MoodTracker.csproj|e:\\prog\\github\\moodtracker-maui\\moodtracker\\moodtracker\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A50610E8-D480-42B9-B7AC-0F8EA625F7AA}|MoodTracker\\MoodTracker.csproj|solutionrelative:moodtracker\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50610E8-D480-42B9-B7AC-0F8EA625F7AA}|MoodTracker\\MoodTracker.csproj|e:\\prog\\github\\moodtracker-maui\\moodtracker\\moodtracker\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A50610E8-D480-42B9-B7AC-0F8EA625F7AA}|MoodTracker\\MoodTracker.csproj|solutionrelative:moodtracker\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50610E8-D480-42B9-B7AC-0F8EA625F7AA}|MoodTracker\\MoodTracker.csproj|e:\\prog\\github\\moodtracker-maui\\moodtracker\\moodtracker\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A50610E8-D480-42B9-B7AC-0F8EA625F7AA}|MoodTracker\\MoodTracker.csproj|solutionrelative:moodtracker\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A50610E8-D480-42B9-B7AC-0F8EA625F7AA}|MoodTracker\\MoodTracker.csproj|e:\\prog\\github\\moodtracker-maui\\moodtracker\\moodtracker\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A50610E8-D480-42B9-B7AC-0F8EA625F7AA}|MoodTracker\\MoodTracker.csproj|solutionrelative:moodtracker\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\Prog\\Github\\MoodTracker-Maui\\MoodTracker\\MoodTracker\\App.xaml",
+              "RelativeDocumentMoniker": "MoodTracker\\App.xaml",
+              "ToolTip": "E:\\Prog\\Github\\MoodTracker-Maui\\MoodTracker\\MoodTracker\\App.xaml",
+              "RelativeToolTip": "MoodTracker\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-07T02:40:40.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "E:\\Prog\\Github\\MoodTracker-Maui\\MoodTracker\\MoodTracker\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "MoodTracker\\Resources\\Styles\\Colors.xaml",
+              "ToolTip": "E:\\Prog\\Github\\MoodTracker-Maui\\MoodTracker\\MoodTracker\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "MoodTracker\\Resources\\Styles\\Colors.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-07T02:39:32.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\Prog\\Github\\MoodTracker-Maui\\MoodTracker\\MoodTracker\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MoodTracker\\MainPage.xaml.cs",
+              "ToolTip": "E:\\Prog\\Github\\MoodTracker-Maui\\MoodTracker\\MoodTracker\\MainPage.xaml.cs",
+              "RelativeToolTip": "MoodTracker\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T02:14:19.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\Prog\\Github\\MoodTracker-Maui\\MoodTracker\\MoodTracker\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MoodTracker\\MainPage.xaml",
+              "ToolTip": "E:\\Prog\\Github\\MoodTracker-Maui\\MoodTracker\\MoodTracker\\MainPage.xaml",
+              "RelativeToolTip": "MoodTracker\\MainPage.xaml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADIAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-07T01:58:53.1Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
